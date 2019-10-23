@@ -21,16 +21,16 @@
     computed:{
       menuItems(){
         return [
-          {
-            icon: 'input',
-            title: 'Войти',
-            route: '/profile-student'
-          },
-          {
-            icon: 'info',
-            title: 'info',
-            route: '/profile-teacher'
-          }
+        //   {
+        //     icon: 'input',
+        //     title: 'Войти',
+        //     route: '/profile-student'
+        //   },
+        //   {
+        //     icon: 'info',
+        //     title: 'info',
+        //     route: '/profile-teacher'
+        //   }
         ]
       }
     }

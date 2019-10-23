@@ -7,12 +7,6 @@
           </v-toolbar-title>
         </router-link>
         <v-spacer></v-spacer>
-        <v-toolbar-items>
-          <v-btn v-for="(item, i) in menuItems" flat :key="`menuItem${i}`" :to="item.route">
-            <v-icon left v-html="item.icon"></v-icon>
-            {{item.title}}
-          </v-btn>
-        </v-toolbar-items>
       </v-toolbar>
     </v-footer>
   </div>

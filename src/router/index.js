@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-import ProfileTeacher from '@/components/ProfileTeacher'
-import ProfileStudent from '@/components/ProfileStudent'
+import ProfileTeacher from '../views/ProfileTeacher.vue'
+import ProfileStudent from '../views/ProfileStudent.vue'
 
 Vue.use(VueRouter)
 
